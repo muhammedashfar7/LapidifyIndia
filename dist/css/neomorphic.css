@@ -1,0 +1,73 @@
+.neomorphic-ctr {
+    padding: 10px;
+    border-radius: 20px;
+    background: #15181D;
+    box-shadow: inset 5px 5px 10px #0d0f12, inset -5px -5px 10px #1d2128;
+}
+.neo-get-started {
+    border-radius: 14px;
+    margin-bottom: 10px;
+}
+.neo-button {
+    border-radius: 10px;
+    background: linear-gradient(145deg, #22252e, #1d2027);
+    box-shadow:  5px 5px 10px #13151a, 
+             -5px -5px 10px #2d313c;
+}
+.neo-button:hover {
+    border-radius: 10px;
+    background: #20232b;
+    box-shadow: inset 5px 5px 10px #13151a, 
+            inset -5px -5px 10px #2d313c;
+}
+.gradient {
+    background: rgb(255,106,164);
+    background: linear-gradient(225deg, #131313, #101010);
+    box-shadow:  -5px 5px 14px #0a0a0a, 
+                 5px -5px 14px #1a1a1a;
+}
+.menu {
+    height: 70px;
+    max-width: 400px;
+    padding: 20px;
+    background: linear-gradient(145deg, #161a1f, #13161a);
+    box-shadow:  5px 5px 8px #0f1115, 
+                 -5px -5px 8px #1b1f25;
+    position: fixed;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 20px;
+    text-align: center;
+}
+.menu a {
+    text-decoration: none;
+}
+
+.gradient-text {
+    background: rgb(252,11,133);
+    background: linear-gradient(342deg, rgba(252,11,133,1) 0%, rgba(128,1,255,1) 100%);   
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.inactive-text:hover {
+    background: rgb(252,11,133);
+    background: linear-gradient(342deg, rgba(252,11,133,1) 0%, rgba(128,1,255,1) 100%);   
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
