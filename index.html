@@ -1,13 +1,7 @@
 ---
 layout: default
 ---
-    <div class="menu">
-        <a href=""><span class="iconly-boldHome gradient-text" style="font-size: 30px;"></span></a>
-        <a href=""><span class="iconly-boldSwap inactive-text" style="font-size: 30px;"></span></a>
-        <a href=""><span class="iconly-boldPlay inactive-text" style="font-size: 30px;"></span></a>
-        <a href=""><span class="iconly-boldPaper inactive-text" style="font-size: 30px;"></span></a>
-        <a href=""><span class="iconly-boldFolder inactive-text" style="font-size: 30px;"></span></a>
-    </div>
+
     <div class="body-wrap">
         <header class="site-header">
             <div class="container">
@@ -24,32 +18,8 @@ layout: default
         </header>
 
         <main>
-            <section class="hero">
-                <div class="container">
-                    <div class="hero-inner">
-						<div class="hero-copy">
-	                        <h1 class="hero-title mt-0">Landing template for startups</h1>
-	                        <p class="hero-paragraph">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
-	                        <div class="hero-cta"><a class="button neo-button" href="#">Pre order now</a><a class="button neo-button" href="#">Get in touch</a></div>
-						</div>
-						<div class="hero-figure anime-element">
-							<svg class="placeholder" width="528" height="396" viewBox="0 0 528 396">
-								<rect width="528" height="396" style="fill:transparent;" />
-							</svg>
-							<div class="hero-figure-box hero-figure-box-01" data-rotation="45deg"></div>
-							<div class="hero-figure-box hero-figure-box-02" data-rotation="-45deg"></div>
-							<div class="hero-figure-box hero-figure-box-03" data-rotation="0deg"></div>
-							<div class="hero-figure-box hero-figure-box-04" data-rotation="-135deg"></div>
-							<div class="hero-figure-box hero-figure-box-05"></div>
-							<div class="hero-figure-box hero-figure-box-06"></div>
-							<div class="hero-figure-box hero-figure-box-07"></div>
-							<div class="hero-figure-box hero-figure-box-08" data-rotation="-22deg"></div>
-							<div class="hero-figure-box hero-figure-box-09" data-rotation="-52deg"></div>
-							<div class="hero-figure-box hero-figure-box-10" data-rotation="-50deg"></div>
-						</div>
-                    </div>
-                </div>
-            </section>
+            <!-- Hero Section -->
+            {% include hero.html %}
 
             <section class="features section">
                 <div class="container">
@@ -115,14 +85,68 @@ layout: default
             </section>
 
             <section class="pricing section">
-                <div class="container-sm">
+                <div class="container">
                     <div class="pricing-inner section-inner">
                         <div class="pricing-header text-center">
-                            <h2 class="section-title mt-0">Unlimited for all</h2>
+                            <h2 class="section-title mt-0 gradient-text-love">Unlimited for all</h2>
                             <p class="section-paragraph mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut ad quis nostrud.</p>
                         </div>
 						<div class="pricing-tables-wrap">
-                            <div class="pricing-table">
+                            <div class="pricing-table neomorphic-ctr">
+                                <div class="pricing-table-inner is-revealing">
+                                    <div class="pricing-table-main">
+                                        <div class="pricing-table-header pb-24">
+                                            <div class="pricing-table-price"><span class="pricing-table-price-currency h2">$</span><span class="pricing-table-price-amount h1">49</span><span class="text-xs">/month</span></div>
+                                        </div>
+										<div class="pricing-table-features-title text-xs pt-24 pb-24">What you will get</div>
+                                        <ul class="pricing-table-features list-reset text-xs">
+                                            <li>
+                                                <span>Lorem ipsum dolor sit nisi</span>
+                                            </li>
+                                            <li>
+                                                <span>Lorem ipsum dolor sit nisi</span>
+                                            </li>
+                                            <li>
+                                                <span>Lorem ipsum dolor sit nisi</span>
+                                            </li>
+											<li>
+												<span>Lorem ipsum dolor sit nisi</span>
+											</li>
+                                        </ul>
+                                    </div>
+                                    <div class="pricing-table-cta mb-8">
+                                        <a class="button button-block neo-button" href="#">Pre order now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pricing-table neomorphic-ctr">
+                                <div class="pricing-table-inner is-revealing">
+                                    <div class="pricing-table-main">
+                                        <div class="pricing-table-header pb-24">
+                                            <div class="pricing-table-price"><span class="pricing-table-price-currency h2">$</span><span class="pricing-table-price-amount h1 gradient-text">49</span><span class="text-xs">/month</span></div>
+                                        </div>
+										<div class="pricing-table-features-title text-xs pt-24 pb-24">What you will get</div>
+                                        <ul class="pricing-table-features list-reset text-xs">
+                                            <li>
+                                                <span>Lorem ipsum dolor sit nisi</span>
+                                            </li>
+                                            <li>
+                                                <span>Lorem ipsum dolor sit nisi</span>
+                                            </li>
+                                            <li>
+                                                <span>Lorem ipsum dolor sit nisi</span>
+                                            </li>
+											<li>
+												<span>Lorem ipsum dolor sit nisi</span>
+											</li>
+                                        </ul>
+                                    </div>
+                                    <div class="pricing-table-cta mb-8">
+                                        <a class="button button-block neo-button" href="#">Pre order now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pricing-table neomorphic-ctr">
                                 <div class="pricing-table-inner is-revealing">
                                     <div class="pricing-table-main">
                                         <div class="pricing-table-header pb-24">
@@ -153,6 +177,9 @@ layout: default
                     </div>
                 </div>
             </section>
+
+            <!-- Icons Section -->
+            {% include icons.html %}
 
 			<section class="cta section">
 				<div class="container neomorphic-ctr">

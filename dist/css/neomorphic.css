@@ -50,9 +50,55 @@
     text-decoration: none;
 }
 
+
+/* Gradient Tests */
 .gradient-text {
     background: rgb(252,11,133);
     background: linear-gradient(342deg, rgba(252,11,133,1) 0%, rgba(128,1,255,1) 100%);   
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.gradient-text-design {
+    background: rgb(11,252,95);
+    background: linear-gradient(353deg, rgba(11,252,95,1) 0%, rgba(1,228,255,1) 100%); 
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.gradient-text-love {
+    background: rgb(252,11,133);
+    background: linear-gradient(324deg, rgba(252,11,133,1) 0%, rgba(255,1,1,1) 100%);   
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.gradient-text-star {
+    background: rgb(252,112,11);
+    background: linear-gradient(48deg, rgba(252,112,11,1) 0%, rgba(255,248,1,1) 100%); 
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.gradient-text-people {
+    background: rgb(103,11,252);
+    background: linear-gradient(353deg, rgba(103,11,252,1) 0%, rgba(1,255,222,1) 100%); 
     background-size: 100%;
     background-clip: text;
     -webkit-background-clip: text;
@@ -70,4 +116,73 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+}
+
+/* Header Cards for Achiements*/
+.card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 15px;
+}
+.header-card {
+    background: linear-gradient(145deg, #1a1d22, #1f2229);
+    box-shadow: 5px 5px 5px #191c21, -5px -5px 5px #21242b;
+    padding: 20px;
+    border-radius: 20px;
+}
+.header-card:hover {
+    background: #1d2026;
+    box-shadow: inset 5px 5px 5px #191c21, 
+                inset -5px -5px 5px #21242b;
+}
+.header-card-text {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.header-no {
+    display: block;
+    font-size: 30px;
+    line-height: 1px;
+    font-weight: 900;
+}
+.header-text {
+    font-size: 10px;
+    line-height: 1px;
+    font-weight: 500;
+}
+
+/* Icons */
+.icons-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 20px;
+    margin: 50px auto;
+}
+.icons-body {
+    background: linear-gradient(145deg, #1a1d22, #1f2229);
+    box-shadow: 5px 5px 5px #191c21, -5px -5px 5px #21242b;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+.icons-body:hover {
+    background: #1d2026;
+    box-shadow: inset 5px 5px 5px #191c21, 
+                inset -5px -5px 5px #21242b;
+}
+.icons-name {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Section */
+.section-button {
+    margin: 0 auto;
+    justify-content: center;
+    display: grid;
+    width: 100%;
 }
