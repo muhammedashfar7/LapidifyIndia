@@ -3,6 +3,7 @@
     border-radius: 20px;
     background: #15181D;
     box-shadow: inset 5px 5px 10px #0d0f12, inset -5px -5px 10px #1d2128;
+    border: 2px solid #24282f;
 }
 .neo-get-started {
     border-radius: 14px;
@@ -13,12 +14,14 @@
     background: linear-gradient(145deg, #22252e, #1d2027);
     box-shadow:  5px 5px 10px #13151a, 
              -5px -5px 10px #2d313c;
+    border: 2px solid #24282f;
 }
 .neo-button:hover {
     border-radius: 10px;
     background: #20232b;
     box-shadow: inset 5px 5px 10px #13151a, 
             inset -5px -5px 10px #2d313c;
+    border: 2px solid #24282f;
 }
 .gradient {
     background: rgb(255,106,164);
@@ -45,6 +48,7 @@
     grid-template-rows: 1fr;
     grid-gap: 20px;
     text-align: center;
+    border: 2px solid #1e2227;
 }
 .menu a {
     text-decoration: none;
@@ -130,11 +134,13 @@
     box-shadow: 5px 5px 5px #191c21, -5px -5px 5px #21242b;
     padding: 20px;
     border-radius: 20px;
+    border: 2px solid #24282f;
 }
 .header-card:hover {
     background: #1d2026;
     box-shadow: inset 5px 5px 5px #191c21, 
                 inset -5px -5px 5px #21242b;
+    border: 2px solid #24282f;
 }
 .header-card-text {
     display: inline-block;
@@ -167,11 +173,13 @@
     padding: 20px;
     border-radius: 20px;
     text-align: center;
+    border: 2px solid #24282f;
 }
 .icons-body:hover {
     background: #1d2026;
     box-shadow: inset 5px 5px 5px #191c21, 
                 inset -5px -5px 5px #21242b;
+    border: 2px solid #24282f;
 }
 .icons-name {
     display: block;
@@ -198,7 +206,7 @@
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    background-color: rgba(17, 19, 23, 0.82) /* Black w/ opacity */
   }
   
   /* Modal Content/Box */
@@ -223,6 +231,7 @@
                 inset -5px -5px 13px #15171c;
     padding: 50px;
     border-radius: 25px;
+    border: 2px solid #16181d;
   }
 
   .copy-text {
@@ -235,6 +244,7 @@
     box-shadow: inset 5px 5px 13px #0d0f12, inset -5px -5px 13px #15171c;
     color: #fff;
     margin-top: 15px;
+    border: 2px solid #16181d;
   }
   .copy-input {
     background: transparent;
@@ -256,11 +266,13 @@
     color: #f44555;
     font-size: 13px;
     font-weight: 600;
+    border: 2px solid #16181d;
 }
 .copy-btn:hover {
     background: #111317;
     box-shadow: inset 5px 5px 10px #0c0e11, 
                 inset -5px -5px 10px #16181d;
+    border: 2px solid #16181d;
 }
 
   /* The Close Button */
@@ -278,6 +290,7 @@
     font-weight: 600;
     margin-top: 13px;
     padding: 10px 12px;
+    border: 2px solid #16181d;
 }
 .close:hover {
     background: #111317;
@@ -294,11 +307,13 @@
     font-size: 12px;
     font-weight: 600;
     margin-top: 13px;
+    border: 2px solid #16181d;
 }
 .modal__btn:hover {
     background: #111317;
     box-shadow: inset 5px 5px 10px #0c0e11, 
                 inset -5px -5px 10px #16181d;
+    border: 2px solid #16181d;
 }
 .icons__name {
     padding: 10px;

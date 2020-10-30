@@ -13,6 +13,11 @@
         grid-template-rows: 1fr 1fr;
         margin: auto;
         width: 100%;
+        padding: 30px;
+        border-radius: 0px;
+    }
+    .close {
+        right: 10px;
     }
 }
 @media (max-width: 545px) {
@@ -35,6 +40,7 @@
         width: 100%;
         margin-bottom: 0px;
         border-radius: 20px 20px 0px 0px;
+        border: transparent;
     }
     .icons-wrap {
         grid-template-columns: 1fr 1fr;
