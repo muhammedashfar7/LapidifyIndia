@@ -234,6 +234,7 @@
     background: #111317;
     box-shadow: inset 5px 5px 13px #0d0f12, inset -5px -5px 13px #15171c;
     color: #fff;
+    margin-top: 15px;
   }
   .copy-input {
     background: transparent;
@@ -265,9 +266,9 @@
   /* The Close Button */
 
   .close {
-    position: absolute;
+    position: fixed;
     margin: 20px;
-    right: 0;
+    right: 20px;
     background: linear-gradient(145deg, #121419, #0f1115);
     box-shadow: 5px 5px 10px #0c0e11, -5px -5px 10px #16181d;
     border: transparent;
@@ -298,4 +299,9 @@
     background: #111317;
     box-shadow: inset 5px 5px 10px #0c0e11, 
                 inset -5px -5px 10px #16181d;
+}
+.icons__name {
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 800;
 }

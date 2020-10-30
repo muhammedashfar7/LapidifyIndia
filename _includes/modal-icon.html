@@ -11,6 +11,9 @@
             <span class="{{ icon.name }}" style="font-size: 200px;"></span>
         </div>
         <div class="modal_buttons">
+            <span class="icons__name gradient-text-love">
+                {{ icon.display_name }}
+            </span>
             <div class="copy-text">
                 <input class="copy-input" type="text" value="{{ icon.name }}" id="{{ icon.name }}" readonly>
             <button class="copy-btn" data-clipboard-target="#{{ icon.name }}">Copy Snippet</button>
