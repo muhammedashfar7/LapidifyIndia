@@ -32,8 +32,10 @@
 
     <script src="{{ site.baseurl }}/dist/js/main.min.js"></script>
     <script src="{{ site.baseurl }}/dist/js/demo.js"></script>
-
-    {% include modal-script.html %}
+    <script src="{{ site.baseurl }}/dist/js/clipboard.min.js"></script>
+    <script>
+        new ClipboardJS('.copy-btn');
+    </script>
 
 </body>
 </html>

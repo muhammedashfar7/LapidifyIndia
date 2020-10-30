@@ -250,7 +250,7 @@
     background: linear-gradient(145deg, #121419, #0f1115);
     box-shadow: 5px 5px 10px #0c0e11, -5px -5px 10px #16181d;
     border: transparent;
-    padding: 5px;
+    padding: 9px;
     border-radius: 10px;
     color: #f44555;
     font-size: 13px;
@@ -263,16 +263,39 @@
 }
 
   /* The Close Button */
+
   .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  }
+    position: absolute;
+    margin: 20px;
+    right: 0;
+    background: linear-gradient(145deg, #121419, #0f1115);
+    box-shadow: 5px 5px 10px #0c0e11, -5px -5px 10px #16181d;
+    border: transparent;
+    border-radius: 10px;
+    color: #f44555;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 13px;
+    padding: 10px 12px;
+}
+.close:hover {
+    background: #111317;
+    box-shadow: inset 5px 5px 10px #0c0e11, 
+                inset -5px -5px 10px #16181d;
+}
+  .modal__btn {
+    width: 100%;
+    background: linear-gradient(145deg, #121419, #0f1115);
+    box-shadow: 5px 5px 10px #0c0e11, -5px -5px 10px #16181d;
+    border: transparent;
+    border-radius: 10px;
+    color: #f44555;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 13px;
+}
+.modal__btn:hover {
+    background: #111317;
+    box-shadow: inset 5px 5px 10px #0c0e11, 
+                inset -5px -5px 10px #16181d;
+}

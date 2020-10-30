@@ -4,13 +4,13 @@ menu:
   url: /
 - title: Icons
   icon: iconly-boldCategory
-  url: /icons
-- title: Home
-  icon: iconly-boldHome
+  url: /icons.html
+- title: Documentation
+  icon: iconly-boldDocument
   url: /
-- title: Home
-  icon: iconly-boldHome
+- title: Portfolio
+  icon: iconly-boldStar
   url: /
-- title: Home
-  icon: iconly-boldHome
+- title: Contact
+  icon: iconly-boldMessage
   url: /

@@ -8,6 +8,12 @@
     .icons-wrap {
         grid-template-columns: 1fr 1fr 1fr;
     }
+    .modal-content {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin: auto;
+        width: 100%;
+    }
 }
 @media (max-width: 545px) {
     .icons-wrap {

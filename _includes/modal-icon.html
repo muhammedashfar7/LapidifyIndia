@@ -1,16 +1,22 @@
 {% for icon in site.icons %}
 <div id="modal-{{ icon.name }}" class="modal">
     <!-- Modal content -->
+    <div class="modal-heading">
+        <span onclick="document.getElementById('modal-{{ icon.name }}').style.display='none'" class="button close" style="color: red;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg>
+        </span>
+    </div>
     <div class="modal-content">
         <div class="modal_icon">
             <span class="{{ icon.name }}" style="font-size: 200px;"></span>
         </div>
         <div class="modal_buttons">
             <div class="copy-text">
-            <input class="copy-input" type="text" value="{{ icon.name }}" id="{{ icon.name }}" readonly>
-            <button class="copy-btn" onclick="myFunction()">Copy Snippet</button>
+                <input class="copy-input" type="text" value="{{ icon.name }}" id="{{ icon.name }}" readonly>
+            <button class="copy-btn" data-clipboard-target="#{{ icon.name }}">Copy Snippet</button>
+            <a href="{{ site.baseurl}}{{ icon.svg }}" class="button modal__btn" download="{{ icon.display_name }}" style="color: royalblue;">Download SVG</a>
+            <a href="{{ site.baseurl}}{{ icon.png }}" class="button modal__btn" download="{{ icon.display_name }}" style="color: seagreen;">Download PNG</a>
             </div>
-            <span onclick="document.getElementById('modal-{{ icon.name }}').style.display='none'" class="button neo-button modal_button" style="color: red;">close</span>
         </div> 
     </div>
 </div>
