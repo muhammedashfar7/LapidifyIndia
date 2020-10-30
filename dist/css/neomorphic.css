@@ -320,3 +320,26 @@
     font-size: 25px;
     font-weight: 800;
 }
+
+/* Icons */
+.icons-size {
+    font-size: 200px;
+}
+.iconly-bulkBookmark.active .path1:before {
+    color: rgb(72, 135, 255);
+}
+.iconly-bulkBookmark.active .path2:before {
+    color: rgb(163, 193, 255);
+}
+.iconly-bulkCategory.active .path1:before {
+    color: rgb(255, 0, 0);
+}
+.iconly-bulkCategory.active .path2:before {
+    color: rgb(255, 120, 120);
+}
+.iconly-bulkStar.active .path1:before {
+    color: rgb(255, 179, 0);
+}
+.iconly-bulkStar.active .path2:before {
+    color: rgb(255, 221, 156);
+}

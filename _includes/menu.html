@@ -1,5 +1,5 @@
 <div class="menu">
     {% for item in site.data.menu.menu %}
-    <a href="{{ site.baseurl }}{{ item.url }}"><span class="{{ item.icon }} {% if item.title == page.title %}gradient-text{% endif %} inactive-text" style="font-size: 30px;"></span></a>
+    <a href="{{ site.baseurl }}{{ item.url }}"><span class="{{ item.icon }} {% if item.title == page.title %}active{% endif %}" style="font-size: 30px;"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span></a>
     {% endfor %}
 </div>

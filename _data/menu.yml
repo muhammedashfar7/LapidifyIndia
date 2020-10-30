@@ -1,16 +1,16 @@
 menu:
 - title: Home
-  icon: iconly-boldHome
+  icon:  iconly-bulkBookmark
   url: /
 - title: Icons
-  icon: iconly-boldCategory
+  icon:  iconly-bulkCategory
   url: /icons.html
 - title: Documentation
-  icon: iconly-boldDocument
+  icon: iconly-bulkDocument
   url: /
-- title: Portfolio
-  icon: iconly-boldStar
-  url: /
+- title: Projects
+  icon:  iconly-bulkStar
+  url: /projects.html
 - title: Contact
-  icon: iconly-boldMessage
+  icon: iconly-bulkMessage
   url: /
