@@ -1,0 +1,17 @@
+{% for icon in site.icons %}
+<div id="modal-{{ icon.name }}" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <div class="modal_icon">
+            <span class="{{ icon.name }}" style="font-size: 200px;"></span>
+        </div>
+        <div class="modal_buttons">
+            <div class="copy-text">
+            <input class="copy-input" type="text" value="{{ icon.name }}" id="{{ icon.name }}" readonly>
+            <button class="copy-btn" onclick="myFunction()">Copy Snippet</button>
+            </div>
+            <span onclick="document.getElementById('modal-{{ icon.name }}').style.display='none'" class="button neo-button modal_button" style="color: red;">close</span>
+        </div> 
+    </div>
+</div>
+{% endfor %}

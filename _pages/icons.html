@@ -1,3 +1,8 @@
+---
+layout: default
+title: Icons
+permalink: /icons
+---
 <section class="icons-section">
     <div class="container">
         <div class="icons-inner section-inner">
@@ -6,15 +11,12 @@
                 <p class="section-paragraph mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut ad quis nostrud.</p>
             </div>
             <div class="icons-wrap">
-                {% for icon in site.icons limit:12 %}
-                <div id="btn-{{ icon.name }}" class="icons-body">
+                {% for icon in site.icons %}
+                <div onclick="document.getElementById('modal-{{ icon.name }}').style.display='block'" class="icons-body">
                     <span class="{{ icon.name }}" style="font-size: 50px;"></span>
                     <span class="icons-name">{{ icon.display_name }}</span>
                 </div>
                 {% endfor %}
-            </div>
-            <div class="section-button">
-                <a href="{{ site.baseurl }}/icons" class="button neo-button">Get More Icons</a>
             </div>
         </div>
     </div>
