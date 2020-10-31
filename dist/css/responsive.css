@@ -48,11 +48,17 @@
 }
 @media (max-width: 365px) {
     .icons-size {
-        font-size: 130px;
+        font-size: 120px;
     }
     .modal_icon {
         height: 80%;
         margin-top: 50px;
+    }
+    .icons-wrap {
+        grid-gap: 15px;
+    }
+    .modal-content {
+        height: 100%;
     }
 }
 

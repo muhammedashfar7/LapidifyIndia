@@ -14,11 +14,24 @@ github_username:  jekyll
 plugins:
   - jekyll-feed
 
+# Collections
 collections:
   icons:
     output: true
   pages:
     output: true
+  category:
+    output: true
+    permalink: /category/:name
+  
+# Defaults
+defaults:
+  # Icons
+  - scope:
+      path: ""
+      type: "category"
+    values:
+      layout: "icons"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

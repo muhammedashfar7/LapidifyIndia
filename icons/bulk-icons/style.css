@@ -729,13 +729,13 @@
 }
 .iconly-bulkMessage .path1:before {
   content: "\e98c";
-  color: rgb(32, 14, 50);
+  color: rgb(198, 198, 198);
   opacity: 0.4;
 }
 .iconly-bulkMessage .path2:before {
   content: "\e98d";
   margin-left: -1em;
-  color: rgb(32, 14, 50);
+  color: rgb(255, 255, 255);
 }
 .iconly-bulkMore-Circle .path1:before {
   content: "\e98e";
@@ -915,12 +915,12 @@
 }
 .iconly-bulkSearch .path1:before {
   content: "\e9b0";
-  color: rgb(32, 14, 50);
+  color:rgb(198, 198, 198);
 }
 .iconly-bulkSearch .path2:before {
   content: "\e9b1";
   margin-left: -1em;
-  color: rgb(32, 14, 50);
+  color: rgb(255, 255, 255);
   opacity: 0.4;
 }
 .iconly-bulkSend .path1:before {
