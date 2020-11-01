@@ -18,6 +18,7 @@ plugins:
 collections:
   icons:
     output: true
+    permalink: /icon/:name
   pages:
     output: true
   category:
@@ -26,12 +27,18 @@ collections:
   
 # Defaults
 defaults:
-  # Icons
+  # Category
   - scope:
       path: ""
       type: "category"
     values:
       layout: "icons"
+  # Icons
+  - scope:
+      path: ""
+      type: "icons"
+    values:
+      layout: "icon-page"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

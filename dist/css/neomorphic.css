@@ -243,17 +243,13 @@
   
   /* Modal Content/Box */
   .modal-content {
-    background: #111317;
-    box-shadow:  5px 5px 16px #0a0b0e, 
-                 -5px -5px 16px #181b20;
-    margin: 15% auto; /* 15% from the top and centered */
+    margin: 30px auto;
     padding: 40px;
     border-radius: 50px;
-    width: 50%; /* Could be more or less, depending on screen size */
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    grid-gap: 40px;
+    grid-gap: 60px;
   }
   
   .modal_icon {
@@ -307,28 +303,6 @@
     border: 2px solid #16181d;
 }
 
-  /* The Close Button */
-
-  .close {
-    position: fixed;
-    margin: 20px;
-    right: 20px;
-    background: linear-gradient(145deg, #121419, #0f1115);
-    box-shadow: 5px 5px 10px #0c0e11, -5px -5px 10px #16181d;
-    border: transparent;
-    border-radius: 10px;
-    color: #f44555;
-    font-size: 12px;
-    font-weight: 600;
-    margin-top: 13px;
-    padding: 10px 12px;
-    border: 2px solid #16181d;
-}
-.close:hover {
-    background: #111317;
-    box-shadow: inset 5px 5px 10px #0c0e11, 
-                inset -5px -5px 10px #16181d;
-}
   .modal__btn {
     width: 100%;
     background: linear-gradient(145deg, #121419, #0f1115);
@@ -398,10 +372,13 @@
     color: #fff;
     border: 2px solid #30343d;
     font-size: 15px;
+    outline: none;
 }
 #search-input:hover {
     box-shadow: inset 5px 5px 10px #14161b, inset -5px -5px 10px #262a31;
+    outline: none;
 }
 #search-input:focus {
     box-shadow: inset 5px 5px 10px #14161b, inset -5px -5px 10px #262a31;
+    outline: none;
 }

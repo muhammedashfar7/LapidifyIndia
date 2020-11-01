@@ -11,10 +11,10 @@ layout: default
             <div class="icons-wrap">
                 {% assign filtered_icons = site.icons | where: 'category', page.name | where_exp:"icon","icon.is_generated != true" %}
                 {% for icon in filtered_icons %}
-                <div onclick="document.getElementById('modal-{{ icon.name }}').style.display='block'" class="icons-body">
+                <a href="{{ site.baseurl }}{{ icon.url }}" style="text-decoration: none;"><div class="icons-body">
                     <span class="{{ icon.name }}" style="font-size: 50px;"></span>
                     <span class="icons-name">{{ icon.display_name }}</span>
-                </div>
+                </div></a>
                 {% endfor %}
             </div>
         </div>

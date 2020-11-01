@@ -6,7 +6,8 @@ layout: null
     {
 
       "title"    : "{{ icon.display_name | escape }}",
-      "name" : "{{ icon.name }}"
+      "name" : "{{ icon.name }}",
+      "url" : "{{ site.baseurl }}{{ icon.url }}"
 
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
