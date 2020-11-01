@@ -5,7 +5,7 @@ layout: default
     <div class="container">
         <div class="icons-inner section-inner">
             <div class="icons-header text-center">
-                <h2 class="section-title mt-0 {{ page.gradient }}">{{ page.display_name }}</h2>
+                <h2 class="section-title mt-0 gradient-text-people">{{ page.display_name }}</h2>
                 <p class="section-paragraph mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut ad quis nostrud.</p>
             </div>
             <div class="modal-content">
@@ -13,17 +13,22 @@ layout: default
                     <span class="{{ page.name }} icons-size"></span>
                 </div>
                 <div class="modal_buttons">
-                    <span class="icons__name gradient-text-love">
-                        {{ page.display_name }}
-                    </span>
                     <div class="copy-text">
                         <input class="copy-input" type="text" value="&#60;span class='{{ page.name }}'&#62;&#60;/span&#62;" id="{{ page.name }}" readonly>
                     <button class="copy-btn" data-clipboard-target="#{{ page.name }}">Copy Snippet</button>
-                    <a href="{{ site.baseurl}}{{ icon.svg }}" class="button modal__btn" download="{{ page.display_name }}" style="color: royalblue;">Download SVG</a>
-                    <a href="{{ site.baseurl}}{{ icon.png }}" class="button modal__btn" download="{{ page.display_name }}" style="color: seagreen;">Download PNG</a>
-                    <a href="{{ site.baseurl}}{{ icon.png }}" class="button modal__btn" download="{{ page.display_name }}" style="color: seagreen;">Download Webfont</a>
+                    <a href="{{ site.baseurl}}{{ page.svg }}" class="button modal__btn" download="{{ page.display_name }}" style="color: royalblue;">Download SVG</a>
+                    <a href="{{ site.baseurl}}{{ page.png }}" class="button modal__btn" download="{{ page.display_name }}" style="color: seagreen;">Download PNG</a>
                     </div>
                 </div> 
+            </div>
+            <div>
+                <span class="icons__page_heading">🔥Related Icons</span>
+            </div>
+            <div class="icons-wrap">
+                {% assign filtered_icons = site.icons | where: 'category', page.category | where_exp:"icon","icon.is_generated != true" %}
+                {% for icon in filtered_icons limit:12 %}
+                {% include icon-box.html %}
+                {% endfor %}
             </div>
         </div>
     </div>

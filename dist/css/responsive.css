@@ -12,6 +12,7 @@
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
         width: 100%;
+        grid-gap: 0px;
     }
     .close {
         right: 10px;
@@ -20,6 +21,10 @@
 @media (max-width: 545px) {
     .icons-wrap {
         grid-template-columns: 1fr 1fr;
+    }
+    .modal-content {
+        margin: 0px;
+        padding: 0px;
     }
 }
 @media (max-width: 460px) {
@@ -37,16 +42,12 @@
         width: 100%;
         margin-bottom: 0px;
         border-radius: 20px 20px 0px 0px;
-        border: transparent;
     }
     .icons-wrap {
         grid-template-columns: 1fr 1fr;
     }
 }
 @media (max-width: 365px) {
-    .icons-size {
-        font-size: 120px;
-    }
     .modal_icon {
         height: 80%;
         margin-top: 50px;

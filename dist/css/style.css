@@ -355,7 +355,8 @@ button,
 input,
 select,
 textarea {
-	font-family: 'Varela Round', sans-serif;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
 }
 
 a {
@@ -383,7 +384,8 @@ h6,
 .h6 {
 	clear: both;
 	color: #fff;
-	font-weight: 600
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
 }
 
 h1,
