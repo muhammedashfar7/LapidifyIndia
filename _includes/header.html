@@ -1,15 +1,21 @@
 
+   <!-- Header --> 
     <div class="body-wrap">
         <header class="site-header">
             <div class="container">
                 <div class="site-header-inner">
                     <div class="brand header-brand">
                         <h1 class="m-0">
+                            <!-- Logo -->
 							<a href="#">
 								<img class="header-logo-image" src="{{ site.baseurl }}/dist/images/logo.svg" alt="Logo">
                             </a>
                         </h1>
                     </div>
+                    <!-- Search Button -->
+                    <button onclick="document.getElementById('modal-search').style.display='block'" class="search-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                    </button>
                 </div>
             </div>
         </header>

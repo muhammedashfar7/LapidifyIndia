@@ -1,16 +1,14 @@
----
-layout: default
-title: Search
-permalink: /search.html
----
 <!-- Search script "/dist/js/search-script.js" & search configuration "_includes/search-script.html" -->
 <!-- Search Container -->
-<section class="icons-section">
+<section id="modal-search" class="icons-section">
     <div class="container">
         <div class="icons-inner section-inner">
             <div id="search-container">
             <!-- Search Input -->
-                <input type="text" id="search-input" placeholder="👉 Type your keyword">
+                <input type="text" id="search-input" placeholder="🔍 Search Icons!">
+                <button onclick="document.getElementById('modal-search').style.display='none'" class="close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                </button>
             <!-- Search Result container [grid] -->
             <div id="results-container" class="icons-wrap">
                 <!-- Random Icons (30) [icon-box] "_includes/icon-box.html" -->

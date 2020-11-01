@@ -181,6 +181,7 @@
     border-radius: 20px;
     text-align: center;
     border: 2px solid #24282f;
+    height: 100%;
 }
 .icons-body:hover {
     background: #1d2026;
@@ -360,10 +361,10 @@
 .iconly-bulkDocument.active .path2:before {
     color: rgb(255, 244, 238));
 }
-.iconly-bulkSearch.active .path1:before {
+.iconly-bulkChat.active .path1:before {
     color: rgb(167, 255, 251);
 }
-.iconly-bulkSearch.active .path2:before {
+.iconly-bulkChat.active .path2:before {
     color: rgb(75, 255, 204);
 }
 .icons__page_heading {
@@ -390,5 +391,50 @@
 }
 #search-input:focus {
     box-shadow: inset 5px 5px 10px #14161b, inset -5px -5px 10px #262a31;
+    outline: none;
+}
+#modal-search {
+    display: none;
+    position: fixed;
+    width: 100%;
+    background: #1d2026;
+    height: calc(100vh - 0px);
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    overflow: auto;
+}
+.search-btn {
+    float: left;
+    padding: 9px;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #1f2229, #1a1d22);
+    box-shadow: 5px 5px 9px #181b20, -5px -5px 9px #22252c;
+    color: #8a94a7;
+    border: 2px solid #24282f;
+}
+.search-btn:hover:focus {
+    background: #1d2026;
+    box-shadow: inset 5px 5px 9px #181b20, 
+                inset -5px -5px 9px #22252c;
+    outline: none;
+}
+.close {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    background: #1d2026;
+    box-shadow: 5px 5px 10px #16191d, -5px -5px 10px #24272f;
+    border: 2px solid #ff5151;
+    padding: 8px;
+    border-radius: 10px;
+    color: #ff5151;
+}
+.close:hover:focus {
+    background: #1d2026;
+    box-shadow: inset 5px 5px 10px #16191d, 
+                inset -5px -5px 10px #24272f;
+    border: 2px solid #30343d;
     outline: none;
 }

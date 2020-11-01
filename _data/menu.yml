@@ -11,6 +11,6 @@ menu:
 - title: Documentation
   icon: iconly-bulkDocument
   url: /documentation.html
-- title: Search
-  icon: iconly-bulkSearch
-  url: /search.html
+- title: Contact
+  icon:  iconly-bulkChat
+  url: /contact

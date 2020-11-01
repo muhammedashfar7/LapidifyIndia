@@ -449,13 +449,13 @@
 }
 .iconly-bulkChat .path1:before {
   content: "\e954";
-  color: rgb(32, 14, 50);
+  color: rgb(198, 198, 198);
   opacity: 0.4;
 }
 .iconly-bulkChat .path2:before {
   content: "\e955";
   margin-left: -1em;
-  color: rgb(32, 14, 50);
+  color: rgb(255, 255, 255);
 }
 .iconly-bulkClose-Square .path1:before {
   content: "\e956";
