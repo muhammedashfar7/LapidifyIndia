@@ -43,6 +43,7 @@
         width: 100%;
         margin-bottom: 0px;
         border-radius: 20px 20px 0px 0px;
+        border-bottom: transparent;
     }
     .icons-wrap {
         grid-template-columns: 1fr 1fr;

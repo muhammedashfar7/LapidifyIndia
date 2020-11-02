@@ -56,6 +56,7 @@
     grid-gap: 20px;
     text-align: center;
     border: 2px solid #1e2227;
+    z-index: 100;
 }
 .menu a {
     text-decoration: none;
@@ -209,8 +210,9 @@
     border-radius: 20px;
     box-shadow:  5px 5px 11px #181a1f, 
              -5px -5px 11px #22262d;
-    padding: 210px 10px 10px 280px;
     border: 2px solid #24282f;
+    position: relative;
+    overflow: hidden;
 }
 .category-icon:hover {
     box-shadow: inset 5px 5px 11px #181a1f, 
@@ -225,6 +227,36 @@
     border-radius: 10px;
     text-align: center;
     border: 2px solid #24282f;
+    position: absolute;
+    z-index: 3;
+    bottom: 10px;
+    right: 10px;
+}
+.category-name {
+    position: absolute;
+    z-index: 3;
+    top: 61px;
+    left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    color: #fff;
+}
+.icon-preview {
+    position: absolute;
+    z-index: 1;
+    left: -10px;
+    right: -10px;
+    font-size: 40px;
+    opacity: 0.4;
+    bottom: -15px;
+    text-align: center;
+    background: linear-gradient(300deg, rgba(29, 32, 38, 0) 0%, rgb(62, 68, 80) 90%);
+    padding: 15px 30px 30px 30px;
+    transform: rotate(5deg);
+}
+.category-icon-margin {
+    margin: 5px;
 }
 
 /* Section */
@@ -399,7 +431,7 @@
     width: 100%;
     background: #1d2026;
     height: calc(100vh - 0px);
-    z-index: 1;
+    z-index: 5;
     left: 0;
     top: 0;
     height: 100%;
