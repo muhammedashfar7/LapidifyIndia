@@ -1,0 +1,39 @@
+backend:
+  name: git-gateway
+  branch: master
+
+# when using the default proxy server port
+local_backend: true
+
+site_url: https://eroyx.tk
+display_url: https://eroyx.tk
+logo_url: https://eroyx.tk/assets/images/cms.png
+
+media_folder: "uploads"
+collections:
+  - label: "Icons"
+    name: "icons"
+    folder: "_icons"
+    create: true
+    identifier_field: "name"
+    slug: "{{slug}}"
+    delete: false
+    editor:
+      preview: false
+      delete: false
+    fields:
+      - label: "Icon Shortcode"
+        name: "name"
+        widget: "string"
+        required: true
+        hint: "Ex: icon-1password"
+      - label: "Display Name"
+        name: "display_name"
+        widget: "string"
+        required: true
+        hint: "Ex: 1Password"
+      - label: "icon code"
+        name: "code"
+        widget: "string"
+        required: true
+        hint: "Ex: f1cb"

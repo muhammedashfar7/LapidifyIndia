@@ -1,4 +1,9 @@
 
+@media (max-width: 1100px) {
+    .grid-wrap {
+        grid-template-columns: 1fr 1fr;
+    }
+}
 @media (max-width: 1055px) {
     .icons-wrap {
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -17,6 +22,11 @@
     .close {
         right: 15px;
         top: 15px;
+    }
+}
+@media (max-width: 560px) {
+    .grid-wrap {
+        grid-template-columns: 1fr;
     }
 }
 @media (max-width: 545px) {

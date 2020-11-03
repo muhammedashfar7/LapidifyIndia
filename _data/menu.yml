@@ -2,15 +2,15 @@ menu:
 - title: Home
   icon:  iconly-bulkBookmark
   url: /
-- title: Category
+- title: Icons
   icon:  iconly-bulkCategory
-  url: /category.html
+  url: /icons
 - title: Projects
   icon:  iconly-bulkStar
   url: /projects.html
-- title: Documentation
+- title: Posts
   icon: iconly-bulkDocument
-  url: /documentation.html
+  url: /posts
 - title: Contact
   icon:  iconly-bulkChat
   url: /contact

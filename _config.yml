@@ -21,24 +21,9 @@ collections:
     permalink: /icon/:name
   pages:
     output: true
-  category:
-    output: true
-    permalink: /category/:name
   
-# Defaults
-defaults:
-  # Category
-  - scope:
-      path: ""
-      type: "category"
-    values:
-      layout: "icons"
+
   # Icons
-  - scope:
-      path: ""
-      type: "icons"
-    values:
-      layout: "icon-page"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
