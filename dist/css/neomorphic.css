@@ -195,7 +195,7 @@
 }
 .icons-name {
     display: block;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 600;
 }
 .icons-short_name {
@@ -204,7 +204,7 @@
     box-shadow: inset 5px 5px 7px #1a1d22, inset -5px -5px 7px #20232a;
     border: 2px solid #24282f;
     padding: 5px 10px;
-    font-weight: 600;
+    font-weight: 500;
     border-radius: 5px;
     line-height: 1px;
     text-align: center;
