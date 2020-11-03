@@ -1,5 +1,5 @@
 ---
 name: icon-cloud5
-display_name: Cloud 5
+display_name: Cloud
 code: eb32
 ---

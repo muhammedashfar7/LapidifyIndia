@@ -1,15 +1,32 @@
 <!DOCTYPE html>
+<!-- html lang-->
 <html lang="en" class="no-js">
 <head>
+
+    <!-- Metadata -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Title -->
     <title>Solid Template</title>
+
+    <!-- Google Font
+    Monstserrat & Work Sans-->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Theme supporting CSS
+    'style.css' for basic styling of elements
+    'neomorphic.css' for neomorphic and added containers design
+    'responcive.css' for responcive css-->
     <link rel="stylesheet" href="{{ site.baseurl }}/dist/css/style.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/dist/css/neomorphic.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/dist/css/responsive.css">
+
+    <!-- Syntax CSS-->
     <link rel="stylesheet" href="{{ site.baseurl }}/dist/css/syntax.css">
+
+    <!-- Markdown CSS-->
     <link rel="stylesheet" href="{{ site.baseurl }}/dist/css/markdown.css">
     <style>
         .markdown-body {
@@ -27,8 +44,13 @@
             }
         }
     </style>
+
+    <!-- Icon CSS-->
     <link rel="stylesheet" href="{{ site.baseurl }}/icons/all-icons/style.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/icons/bulk-icons/style.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/icons/bold-icons/style.css">
+
+    <!-- Theme animation CSS -->
 	<script src="https://unpkg.com/animejs@3.0.1/lib/anime.min.js"></script>
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
@@ -52,6 +74,7 @@
     <script src="{{ site.baseurl }}/dist/js/demo.js"></script>
     <script src="{{ site.baseurl }}/dist/js/clipboard.min.js"></script>
 
+    <!-- Netlify CMS-->
     {% include netlify-cms.html %}
 
     <!-- Clipbroad JS-->
