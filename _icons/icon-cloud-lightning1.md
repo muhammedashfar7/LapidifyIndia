@@ -1,5 +1,5 @@
 ---
-name: " icon-cloud-lightning1"
+name: lapicon-cloud-lightning1
 display_name: Cloud Lightning
 code: eb45
 ---

@@ -1,5 +1,5 @@
 ---
-name: icon-cloud-sun-snow
+name: lapicon-cloud-sun-snow
 display_name: Cloud Sun Snow
 code: eb40
 ---

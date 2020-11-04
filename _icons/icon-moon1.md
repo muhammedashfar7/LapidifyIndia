@@ -1,5 +1,5 @@
 ---
-name: icon-moon1
+name: lapicon-moon1
 display_name: Moon
 code: eb69
 ---

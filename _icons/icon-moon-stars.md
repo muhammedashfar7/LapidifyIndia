@@ -1,5 +1,5 @@
 ---
-name: icon-moon-stars
+name: lapicon-moon-stars
 display_name: Moon Stars
 code: eb66
 ---

@@ -1,5 +1,5 @@
 ---
-name: icon-cloud-moon-lightning
+name: lapicon-cloud-moon-lightning
 display_name: Cloud Moon Lightning
 code: eb48
 ---
