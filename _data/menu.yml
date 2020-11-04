@@ -14,3 +14,13 @@ menu:
 - title: Contact
   icon:  iconly-bulkChat
   url: /contact
+
+footer_menu:
+  - title: Contact
+    url: ""
+  - title: About Us
+    url: ""
+  - title: FAQ's
+    url: ""
+  - title: Support
+    url: ""

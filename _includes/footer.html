@@ -7,18 +7,11 @@
                 </a>
             </div>
             <ul class="footer-links list-reset">
+                {% for item in site.data.menu.footer_menu %}
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
                 </li>
-                <li>
-                    <a href="#">About us</a>
-                </li>
-                <li>
-                    <a href="#">FAQ's</a>
-                </li>
-                <li>
-                    <a href="#">Support</a>
-                </li>
+                {% endfor %}
             </ul>
             <ul class="footer-social-links list-reset">
                 <li>
@@ -46,7 +39,7 @@
                     </a>
                 </li>
             </ul>
-            <div class="footer-copyright">&copy; 2019 Solid, all rights reserved</div>
+            <div class="footer-copyright">&copy; 2020 {{ site.title }} | A Lapidify Comapny</div>
         </div>
     </div>
 </footer>

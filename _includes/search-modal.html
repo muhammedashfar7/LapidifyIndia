@@ -12,7 +12,7 @@
             <!-- Search Result container [grid] -->
             <div id="results-container" class="icons-wrap">
                 <!-- Random Icons (30) [icon-box] "_includes/icon-box.html" -->
-                {% for icon in site.icons %}
+                {% for icon in site.icons limit:30 %}
                 {% include icon-box.html %}
                 {% endfor %}
             </div>
