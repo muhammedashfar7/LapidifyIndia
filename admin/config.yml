@@ -37,3 +37,8 @@ collections:
         widget: "string"
         required: true
         hint: "Ex: f1cb"
+      - label: "icon category"
+        name: "type"
+        widget: "string"
+        required: true
+        hint: "Ex: halloween-costumes"
