@@ -794,6 +794,7 @@
   font-size: 85%;
   background-color: rgba(81, 81, 81, 0.33);
   border-radius: 3px;
+  color: #ff5959;
 }
 
 .markdown-body pre {
