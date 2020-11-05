@@ -39,6 +39,9 @@ collections:
         hint: "Ex: f1cb"
       - label: "icon category"
         name: "type"
-        widget: "string"
+        widget: "select"
+        options:
+          - { label: "Fairy Tale Icons", value: "fairy-tale-icons"}
+          - { label: "Halloween Costumes Icons", value: "halloween-costumes"}
         required: true
         hint: "Ex: halloween-costumes"
