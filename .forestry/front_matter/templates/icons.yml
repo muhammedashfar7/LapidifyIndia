@@ -26,6 +26,7 @@ fields:
       path: 
   label: Type
 pages:
+- _icons/lapicon-harlequin.md
 - _icons/lapicon-knight1.md
 - _icons/lapicon-mummy.md
 - _icons/lapicon-nun.md
