@@ -25,3 +25,5 @@ fields:
       file: 
       path: 
   label: Type
+pages:
+- _icons/lapicon-prisioner.md
