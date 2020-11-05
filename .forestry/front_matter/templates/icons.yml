@@ -19,6 +19,8 @@ fields:
     options:
     - Halloween Costumes
     - Fairy Tale
+    - Halloween Party
+    - Laboratory
     source:
       type: simple
       section: 
