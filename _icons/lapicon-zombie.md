@@ -1,6 +1,6 @@
 ---
-type: halloween-costumes
-name: " lapicon-zombie"
+type: Halloween Costumes
+name: lapicon-zombie
 display_name: Zombie
 code: ef28
 

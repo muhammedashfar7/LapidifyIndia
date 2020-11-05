@@ -1,6 +1,6 @@
 ---
-name: " lapicon-gnome1"
+name: lapicon-gnome1
 display_name: Gnome
 code: ed8b
-type: halloween-costumes
+type: Halloween Costumes
 ---

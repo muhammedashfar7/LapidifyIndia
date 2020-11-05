@@ -8,6 +8,7 @@ layout: null
       "title"    : "{{ icon.display_name | escape }}",
       "name" : "{{ icon.name }}",
       "code" : "{{ icon.code }}",
+      "type" : "{{ icon.type }}",
       "url" : "{{ site.baseurl }}{{ icon.url }}"
 
     } {% unless forloop.last %},{% endunless %}

@@ -1,6 +1,6 @@
 ---
-type: halloween-costumes
-name: " lapicon-robot"
+type: Halloween Costumes
+name: lapicon-robot
 display_name: Robot
 code: f176
 

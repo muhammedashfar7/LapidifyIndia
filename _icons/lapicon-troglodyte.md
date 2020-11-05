@@ -1,6 +1,6 @@
 ---
-type: halloween-costumes
-name: " lapicon-troglodyte"
+type: Halloween Costumes
+name: lapicon-troglodyte
 display_name: Troglodyte
 code: efbb
 
