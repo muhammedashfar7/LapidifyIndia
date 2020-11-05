@@ -17,8 +17,8 @@ fields:
   config:
     required: false
     options:
-    - halloween-costumes
-    - fairy-tale-icons
+    - Halloween Costumes
+    - Fairy Tale
     source:
       type: simple
       section: 
