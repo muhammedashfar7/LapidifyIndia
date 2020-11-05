@@ -31,6 +31,8 @@ pages:
 - _icons/lapicon-alien.md
 - _icons/lapicon-angel.md
 - _icons/lapicon-bacterium.md
+- _icons/lapicon-bacterium1.md
+- _icons/lapicon-bacterium2.md
 - _icons/lapicon-bride.md
 - _icons/lapicon-broom.md
 - _icons/lapicon-castle.md
@@ -67,6 +69,7 @@ pages:
 - _icons/lapicon-magic-wand.md
 - _icons/lapicon-mermaid.md
 - _icons/lapicon-mime.md
+- _icons/lapicon-molecule.md
 - _icons/lapicon-monster.md
 - _icons/lapicon-mummy.md
 - _icons/lapicon-ninja.md
@@ -102,6 +105,8 @@ pages:
 - _icons/lapicon-vampire.md
 - _icons/lapicon-vampire1.md
 - _icons/lapicon-viking.md
+- _icons/lapicon-virus.md
+- _icons/lapicon-virus1.md
 - _icons/lapicon-white-rabbit.md
 - _icons/lapicon-witch1.md
 - _icons/lapicon-wizard1.md
