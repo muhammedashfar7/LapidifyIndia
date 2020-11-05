@@ -1,0 +1,16 @@
+---
+label: Icons
+hide_body: true
+fields:
+- type: text
+  name: name
+  label: name
+- type: text
+  name: display_name
+  label: display_name
+- type: text
+  name: code
+  label: code
+- type: text
+  name: type
+  label: type
