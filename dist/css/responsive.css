@@ -23,6 +23,16 @@
         right: 15px;
         top: 15px;
     }
+    .contact-form {
+        margin: 0px 10px 0px 10px;
+    }
+    .form-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .input-button {
+        width: 100%;
+    }
 }
 @media (max-width: 560px) {
     .grid-wrap {

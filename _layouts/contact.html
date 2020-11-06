@@ -1,0 +1,60 @@
+---
+layout: default
+---
+<!-- Search script "/dist/js/search-script.js" & search configuration "_includes/search-script.html" -->
+<!-- Search Container -->
+<section class="icons-section">
+    <div class="container">
+        <div class="icons-inner section-inner">
+            <div class="icons-header text-center" style="margin-bottom: 35px;">
+                <h2 class="section-title mt-0 gradient-text-people">{{ page.title }}</h2>
+                <article class="markdown-body">
+                    {{ content }}
+                </article>
+            </div>
+            <form class="contact-form" action="/action_page.php">
+                <div class="form-grid">
+                <div>
+                    <label class="input-label" for="fname">First name:</label>
+                    <input class="input-field" type="text" id="fname" name="fname" placeholder="eg: Muhammed Ashfar">
+                </div>
+                <div>
+                    <label class="input-label" for="lname">Last name:</label>
+                    <input class="input-field" type="text" id="lname" name="lname" placeholder="eg: Muhammed Ashfar">
+                </div>
+                <div>
+                    <label class="input-label" for="fname">First name:</label>
+                    <input class="input-field" type="text" id="fname" name="fname" placeholder="eg: Muhammed Ashfar">
+                </div>
+                <div>
+                    <label class="input-label" for="lname">Last name:</label>
+                    <input class="input-field" type="text" id="lname" name="lname" placeholder="eg: Muhammed Ashfar">
+                </div>
+                <div>
+                    <label class="input-label" for="cars">Choose a car:</label>
+                    <select class="input-select" name="cars" id="cars">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="input-label" for="cars">Choose a car:</label>
+                    <select class="input-select" name="cars" id="cars">
+                        <option class="input-options" value="volvo">Volvo</option>
+                        <option class="input-options" value="saab">Saab</option>
+                        <option class="input-options" value="mercedes">Mercedes</option>
+                        <option class="input-options" value="audi">Audi</option>
+                    </select>
+                </div>
+            </div>
+            <label class="input-label" for="w3review">Review of W3Schools:</label>
+            <textarea class="input-textarea" id="w3review" name="w3review" rows="4" cols="50" placeholder="type here"></textarea>
+                <input class="input-button" type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</section>
+
+

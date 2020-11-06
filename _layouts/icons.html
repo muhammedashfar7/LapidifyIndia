@@ -11,7 +11,8 @@ layout: default
                 </article>
             </div>
             <div class="icons-wrap">
-                {% for icon in site.icons %}
+                {% assign sorted_icons = site.icons | sort: "name" %}
+                {% for icon in sorted_icons %}
                 {% include icon-box.html %}
                 {% endfor %}
             </div>

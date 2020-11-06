@@ -342,8 +342,8 @@
 .new-icons {
     position: absolute;
     z-index: 2;
-    left: -2px;
-    top: -2px;
+    left: -6px;
+    top: -6px;
     background: #ffb220;
     padding: 3px;
     border-radius: 50%;
@@ -451,23 +451,75 @@
     outline: none;
 }
 
-/* Pagination */
-.pagination a, .pagination span {
-    padding: 7px 18px;
-    border: 1px solid #eee;
-    margin-left: -2px;
-    margin-right: -2px;
-    background-color: #ffffff;
-    display: inline-block;
-  }
-
-.pagination a {    
-    &:hover {
-        background-color: #f1f1f1;
-        color: #333;
-    }
- }
-
-.pagination {
+/* Input class*/
+.contact-form {
+    margin: 0px 50px 0px 50px;
+}
+.input-label {
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+}
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 30px;
+    margin-bottom: 30px;
+}
+.input-field {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 14px;
+    border-radius: 15px;
+    border: 2px solid #323842;
+    background: #1d2026;
+    color: #d5e3ff;
+}
+.input-field:hover:focus {
+    background: #1d2026;
+    box-shadow: inset 5px 5px 10px #181b20, inset -5px -5px 10px #22252c;
+}
+.input-select {
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 14px;
+    border-radius: 15px;
+    border: 2px solid #323842;
+    background: #1d2026;
+    color: #d5e3ff;
+}
+.input-select:hover:focus {
+    background: #1d2026;
+    box-shadow: inset 5px 5px 10px #181b20, inset -5px -5px 10px #22252c;
+}
+.input-textarea {
+    display: block;
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 14px;
+    border-radius: 15px;
+    border: 2px solid #323842;
+    background: #1d2026;
+    color: #d5e3ff;
+    margin-bottom: 30px;
+}
+.input-textarea:hover:focus {
+    background: #1d2026;
+    box-shadow: inset 5px 5px 10px #181b20, inset -5px -5px 10px #22252c;
+}
+.input-button {
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: 2px solid #323842;
+    background: linear-gradient(145deg, #1f2229, #1a1d22);
+    box-shadow: 5px 5px 10px #17191e, -5px -5px 10px #23272e;
+    color: #e0eaff;
+    font-size: 15px;
+    font-weight: 600;
     text-align: center;
- }
+}
+.input-button:hover {
+    background: #1d2026;
+    box-shadow: inset 5px 5px 10px #181b20, inset -5px -5px 10px #22252c;
+}
