@@ -339,6 +339,16 @@
 .icons-size {
     font-size: 200px;
 }
+.new-icons {
+    position: absolute;
+    z-index: 2;
+    left: -2px;
+    top: -2px;
+    background: #ffb220;
+    padding: 3px;
+    border-radius: 50%;
+    color: #1d2027;
+}
 .iconly-bulkBookmark.active .path1:before {
     color: rgb(72, 135, 255);
 }
