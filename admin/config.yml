@@ -22,6 +22,11 @@ collections:
       preview: false
       delete: false
     fields:
+      - label: "Icon Publish Date"
+        name: "date"
+        widget: "datetime"
+        date_format: "DD.MM.YYYY"
+        picker_utc: true
       - label: "Icon Shortcode"
         name: "name"
         widget: "string"
@@ -41,7 +46,9 @@ collections:
         name: "type"
         widget: "select"
         options:
-          - { label: "Fairy Tale Icons", value: "fairy-tale-icons"}
-          - { label: "Halloween Costumes Icons", value: "halloween-costumes"}
+          - { label: "Fairy Tale Icons", value: "Fairy Tale"}
+          - { label: "Halloween Costumes Icons", value: "Halloween Costumes"}
+          - { label: "Laboratory Icons", value: "Laboratory"}
+          - { label: "Halloween Party Icons", value: "Halloween Party"}
         required: true
         hint: "Ex: halloween-costumes"
