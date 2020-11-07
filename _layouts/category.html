@@ -1,0 +1,31 @@
+---
+layout: default
+title: Projects
+permalink: /projects.html
+---
+<section class="icons-category-section">
+    <div class="container">
+        <div class="icons-category-inner section-inner">
+            <div class="icons-header text-center">
+                <h2 class="section-title mt-0 gradient-text-people">Meet Our Icons</h2>
+                <p class="section-paragraph mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut ad quis nostrud.</p>
+            </div>
+            <div class="icons-category-wrap">
+                {% for category in site.categories %}
+            <a class="category-box" href="{{ site.baseurl }}{{ category.url }}" style="text-decoration: none;">
+                    {% if category.date %}
+                    {% include new-category-tag.html %}
+                    {% endif %}
+                    <span class="category-name">{{ category.name }}</span>
+                    <ul class="circles">
+                        {% assign sorted_icons = site.icons | where: 'type', category.name %}
+                        {% for icon in sorted_icons limit:15 %}
+                        <li><i class="{{ icon.name }}" style="font-size: 50px;">{% include span.html %}</i></li>
+                        {% endfor %}
+                    </ul>
+            </a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>

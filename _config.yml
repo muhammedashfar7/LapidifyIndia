@@ -16,6 +16,18 @@ collections:
     permalink: /icon/:name
   pages:
     output: true
+  categories:
+    output: true
+    permalink: /category/:name
+
+# Defaults
+defaults:
+  # all Series
+  - scope:
+      path: ""
+      type: "categories"
+    values:
+      layout: "category-icons"
 
 # Build settings
 plugins:

@@ -5,9 +5,9 @@ menu:
 - title: Icons
   icon:  iconly-bulkCategory
   url: /icons
-- title: Projects
+- title: Categories
   icon:  iconly-bulkStar
-  url: /projects.html
+  url: /categories
 - title: Documentation
   icon: iconly-bulkDocument
   url: /documentation

@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<section class="icons-section">
+    <div class="container">
+        <div class="icons-inner section-inner">
+            <div class="icons-header text-center">
+                <h2 class="section-title mt-0 {{ page.gradient }}">{{ page.title }}</h2>
+                <article class="markdown-body">
+                    {{ content }}
+                </article>
+            </div>
+            <div class="icons-wrap">
+                {% assign sorted_icons = site.icons | where: "type", page.name | sort: "name" %}
+                {% for icon in sorted_icons %}
+                {% include icon-box.html %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>

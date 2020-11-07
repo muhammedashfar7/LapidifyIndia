@@ -8,6 +8,10 @@
     .icons-wrap {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+    .icons-category-wrap {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
 }
 @media (max-width: 685px) {
     .icons-wrap {
@@ -32,6 +36,10 @@
     }
     .input-button {
         width: 100%;
+    }
+    .icons-category-wrap {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
     }
 }
 @media (max-width: 560px) {
