@@ -50,5 +50,6 @@ collections:
           - { label: "Halloween Costumes Icons", value: "Halloween Costumes"}
           - { label: "Laboratory Icons", value: "Laboratory"}
           - { label: "Halloween Party Icons", value: "Halloween Party"}
+          - { label: "International Flags Icons", value: "International Flags" }
         required: true
         hint: "Ex: halloween-costumes"
