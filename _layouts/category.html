@@ -12,18 +12,7 @@ permalink: /projects.html
             </div>
             <div class="icons-category-wrap">
                 {% for category in site.categories %}
-            <a class="category-box" href="{{ site.baseurl }}{{ category.url }}" style="text-decoration: none;">
-                    {% if category.date %}
-                    {% include new-category-tag.html %}
-                    {% endif %}
-                    <span class="category-name">{{ category.name }}</span>
-                    <ul class="circles">
-                        {% assign sorted_icons = site.icons | where: 'type', category.name %}
-                        {% for icon in sorted_icons limit:15 %}
-                        <li><i class="{{ icon.name }}" style="font-size: 50px;">{% include span.html %}</i></li>
-                        {% endfor %}
-                    </ul>
-            </a>
+                {% include category-box.html %}
                 {% endfor %}
             </div>
         </div>

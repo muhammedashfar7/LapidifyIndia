@@ -1,0 +1,14 @@
+<!-- Animated Category Box -->
+<a class="category-box" href="{{ site.baseurl }}{{ category.url }}" style="text-decoration: none;">
+    {% if category.date %}
+    {% include new-category-tag.html %}
+    {% endif %}
+    <span class="icon-count">{{ category.icon-count }} Icons</span>
+    <span class="category-name">{{ category.name }}</span>
+    <ul class="circles">
+        {% assign sorted_icons = site.icons | where: 'type', category.name %}
+        {% for icon in sorted_icons limit:15 %}
+        <li><i class="{{ icon.name }}">{% include span.html %}</i></li>
+        {% endfor %}
+    </ul>
+</a>
