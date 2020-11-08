@@ -9,6 +9,6 @@
     {% endif %}
     <span class="icons-code">{{ icon.code }}</span>
     <i class="{{ icon.name }}" style="font-size: 45px;">{% include span.html %}</i>
-    <span class="icons-name">{{ icon.display_name }}</span>
+    <span class="icons-name" {% if page.color-primary %}style="color: {{ page.color-primary }}"{% endif %}>{{ icon.display_name }}</span>
     <input class="icons-short_name" id="{{ icon.name }}" value="{{ icon.name }}" readonly>
 </div>

@@ -3,8 +3,8 @@
     {% if category.date %}
     {% include new-category-tag.html %}
     {% endif %}
-    <span class="icon-count">{{ category.icon-count }} Icons</span>
-    <span class="category-name">{{ category.name }}</span>
+    <span class="icon-count" style="color: {{ category.color-primary }};">{{ category.icon-count }} Icons</span>
+    <span class="category-name" style="color: {{ category.color-primary }};">{{ category.name }}</span>
     <ul class="circles">
         {% assign sorted_icons = site.icons | where: 'type', category.name %}
         {% for icon in sorted_icons limit:15 %}
