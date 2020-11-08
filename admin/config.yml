@@ -46,10 +46,10 @@ collections:
         name: "type"
         widget: "select"
         options:
-          - { label: "Fairy Tale Icons", value: "Fairy Tale"}
-          - { label: "Halloween Costumes Icons", value: "Halloween Costumes"}
-          - { label: "Laboratory Icons", value: "Laboratory"}
-          - { label: "Halloween Party Icons", value: "Halloween Party"}
-          - { label: "International Flags Icons", value: "International Flags" }
+          - { label: "Rectangle Flag", value: "Rectangle"}
+          - { label: "Square Flag", value: "Square"}
+          - { label: "Rounded Rectangle Flag", value: "Rounded Rectangle"}
+          - { label: "Rounded Square Flag", value: "Rounded Square"}
+          - { label: "Mast Flag", value: "Mast" }
         required: true
         hint: "Ex: halloween-costumes"
