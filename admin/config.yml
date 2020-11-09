@@ -46,10 +46,11 @@ collections:
         name: "type"
         widget: "select"
         options:
-          - { label: "Rectangle Flag", value: "Rectangle"}
-          - { label: "Square Flag", value: "Square"}
-          - { label: "Rounded Rectangle Flag", value: "Rounded Rectangle"}
-          - { label: "Rounded Square Flag", value: "Rounded Square"}
-          - { label: "Mast Flag", value: "Mast" }
+          - { label: "Rectangle Flag", value: "rt"}
+          - { label: "Square Flag", value: "sq"}
+          - { label: "Rounded Rectangle Flag", value: "rd-rt"}
+          - { label: "Rounded Square Flag", value: "rd-sq"}
+          - { label: "Polygon Flag", value: "pg" }
+          - { label: "Mast Flag", value: "mt" }
         required: true
         hint: "Ex: halloween-costumes"
